@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{743C24DA-6AE2-490B-AD28-331A5D38BDBE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EF7GetStarted", "src\EF7GetStarted\EF7GetStarted.kproj", "{CCF8F9F3-862E-42F5-9D10-AAD312354702}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3E5DEA0-C570-4F33-9510-883DCD9E1B8E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		global_1json__JSONSchema = http://json.schemastore.org/global
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EF7GetStarted.Models", "src\EF7GetStarted.Models\EF7GetStarted.Models.kproj", "{7131FA01-4C46-463A-B309-3186F5C6AACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCF8F9F3-862E-42F5-9D10-AAD312354702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF8F9F3-862E-42F5-9D10-AAD312354702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF8F9F3-862E-42F5-9D10-AAD312354702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF8F9F3-862E-42F5-9D10-AAD312354702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7131FA01-4C46-463A-B309-3186F5C6AACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7131FA01-4C46-463A-B309-3186F5C6AACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7131FA01-4C46-463A-B309-3186F5C6AACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7131FA01-4C46-463A-B309-3186F5C6AACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCF8F9F3-862E-42F5-9D10-AAD312354702} = {743C24DA-6AE2-490B-AD28-331A5D38BDBE}
+		{7131FA01-4C46-463A-B309-3186F5C6AACA} = {743C24DA-6AE2-490B-AD28-331A5D38BDBE}
+	EndGlobalSection
+EndGlobal
