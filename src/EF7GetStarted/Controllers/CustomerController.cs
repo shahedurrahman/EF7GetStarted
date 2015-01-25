@@ -1,7 +1,7 @@
 ﻿using EF7GetStarted.Models;
 using Microsoft.AspNet.Mvc;
 
-namespace EF7GetStarted.Controllers.Controllers
+namespace EF7GetStarted.Controllers
 {
 	[Route("api/[controller]")]
 	public class CustomerController : Controller
@@ -9,9 +9,7 @@ namespace EF7GetStarted.Controllers.Controllers
 		[HttpGet]
 		public IActionResult Get()
 		{
-			var customer = new Customer
-			{
-			};
+			var customer = new Customer();
 
 			return new ObjectResult(customer);
 		}
