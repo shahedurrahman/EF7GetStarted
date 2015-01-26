@@ -12,10 +12,12 @@
     "dependencies": {
         "Microsoft.AspNet.Server.IIS": "1.0.0-*",
 		"EntityFramework": "7.0.0-*",
-		"Microsoft.AspNet.Mvc": "6.0.0-*",
+        "Microsoft.AspNet.Mvc": "6.0.0-*",
+        "Dapper": "",
 		"EF7GetStarted.Models": ""
     },
     "frameworks" : {
-        "aspnetcore50": { }
+        "aspnetcore50": { },
+        "aspnet50": { }
     }
 }

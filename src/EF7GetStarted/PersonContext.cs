@@ -1,5 +1,9 @@
 ﻿using EF7GetStarted.Models;
 using Microsoft.Data.Entity;
+//using System.Collections.Generic;
+//using System.Data.SqlClient;
+//using Dapper;
+//using System.Linq;
 
 namespace EF7GetStarted
 {
@@ -11,5 +15,15 @@ namespace EF7GetStarted
         {
             base.OnConfiguring(options);
         }
+
+        //public List<Person> GetList()
+        //{
+        //    using (var con = new SqlConnection())
+        //    {
+        //        var list = con.Query<Person>("SELECT * FROM [Person]").ToList();
+
+        //        return list;
+        //    }
+        //}
     }
 }
