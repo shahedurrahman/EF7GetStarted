@@ -16,6 +16,6 @@
 		"EF7GetStarted.Models": ""
     },
     "frameworks" : {
-        "aspnetcore50" : { }
+        "aspnetcore50": { }
     }
 }

@@ -13,5 +13,10 @@ namespace EF7GetStarted.Controllers
 
 			return new ObjectResult(customer);
 		}
+
+		public void Test()
+		{
+			
+		}
 	}
 }
